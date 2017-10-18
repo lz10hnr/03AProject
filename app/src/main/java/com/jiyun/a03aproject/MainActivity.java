@@ -17,6 +17,12 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "03b", Toast.LENGTH_SHORT).show();
 
 
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        }).start();
 
 
 
